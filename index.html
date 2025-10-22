@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="content">
-            <p class="t1">Summer Class For All Swin Suite And Free  Express Deliver
-                - OFF 50%!<u> ShowNow </u>
+            <p class="t1">Summer Class For All Swin Suite And Free  Express Deliver- OFF 50%! show off
             </p>
         </div>
 
@@ -18,33 +18,513 @@
             <h1 class="t2">
                 Exclusive
             </h1>
-
-        <ul class="nav-link">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">CONTENT</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SING UP</a></li>
-        </ul>
-        
-        </div>
-
-        <div class="search">
-            <input type="search" placeholder="what are you looking ">
-            <img src="search-interface-symbol.png" alt="">
-        </div>
-
-        <ul class="linkk">
-            <li><a href="">Woman' Fashion</a></li>
-            <li><a href="">Men' Fashion</a></li>
-            <li><a href="">Eletronics</a></li>
-            <li><a href="">Home & style</a></li>
-            <li><a href="">Medicine</a></li>
-            <li><a href="">Sport & outdoor</a></li>
-            <li><a href="">baby & toys</a></li>
-            <li><a href="">Groceries & pets</a></li>
-            <li><a href=""></a>Healthy & beauty</li>
-        </ul>
-
+            <li class="dropdown">
+     <a href="#">Shop</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contant.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="log.html">Sign Up</a></li>
+      </ul>
+    </nav>
+    <div class="nav-icons">
+      <input type="text" placeholder="What are you looking for?">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-shopping-cart"></i>
+      <i class="fas fa-user"></i>
+    </div>
     </header>
+
+
+  </section>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <ul>
+        <li>Woman's Fashion</li>
+        <li>Men's Fashion</li>
+        <li>Electronics</li>
+        <li>Home & Lifestyle</li>
+        <li>Medicine</li>
+        <li>Sports & Outdoor</li>
+        <li>Baby's & Toys</li>
+        <li>Groceries & Pets</li>
+        <li>Health & Beauty</li>
+      </ul>
+    </aside>
+
+    <!-- Banner -->
+    <section class="banner">
+      <div class="banner-content">
+        <img src="1200px-Apple_gray_logo 1.png" alt="Apple Logo" class="apple-logo">
+        <p class="series">iPhone 14 Series</p>
+        <h1>Up to 10% <br> off Voucher</h1>
+        <a href="#" class="shop-btn">Shop Now →</a>
+      </div>
+      <div class="banner-image">
+        <img src="download.jpg" alt="iPhone">
+      </div>
+    </section>
+  </div>
+
+  
+  <section class="flash-sales">
+    <!-- Header -->
+    <div class="flash-header">
+      <p class="tag">Today’s</p>
+      <h2>Flash Sales</h2>
+    </div>
+
+    <!-- Countdown -->
+    <div class="countdown">
+      <div class="time-box"><span id="days">03</span><p>Days</p></div>
+      <span class="colon">:</span>
+      <div class="time-box"><span id="hours">23</span><p>Hours</p></div>
+      <span class="colon">:</span>
+      <div class="time-box"><span id="minutes">19</span><p>Minutes</p></div>
+      <span class="colon">:</span>
+      <div class="time-box"><span id="seconds">56</span><p>Seconds</p></div>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="product-grid">
+
+      <!-- Product 1 -->
+      <div class="product-card">
+        <span class="discount">-0%</span>
+        <img src="fuck.png" alt="Bluetooth Gamepad">
+        <h3>X3 Bluetooth Gamepad</h3>
+        <p class="price"><span class="new-price">$14899</span> <span class="old-price">$14999</span></p>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <span class="discount">-35%</span>
+        <img src="keybored.png" alt="Keyboard">
+        <button class="add-cart">Add To Cart</button>
+        <h3>AK-900 Wired Keyboard</h3>
+        <p class="price"><span class="new-price">$960</span> <span class="old-price">$1160</span></p>
+       
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <span class="discount">-30%</span>
+        <img src="fire.png" alt="Gaming Monitor">
+        <h3>IPS LCD Gaming Monitor</h3>
+        <p class="price"><span class="new-price">$370</span> <span class="old-price">$400</span></p>
+        
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <span class="discount">-25%</span>
+        <img src="chair.png" alt="Chair">
+        <h3>S-Series Comfort Chair</h3>
+        <p class="price"><span class="new-price">$375</span> <span class="old-price">$400</span></p>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button  class="view-cod"> <a href="account.html"></a>View All</button>
+  </section>
+
+  <script src="script.js"></script>
+
+
+  <section class="categories">
+    <p class="sub-title"><i class="fas fa-rectangle"></i> Categories</p>
+    <h2>Browse By Category</h2>
+    
+    <div class="category-container">
+      <div class="category-card">
+        <i class="fas fa-mobile-alt"></i>
+        <img src="iphone.png" alt="">
+        <p>Phones</p>
+      </div>
+      <div class="category-card">
+        <i class="fas fa-desktop"></i>
+        <img src="monitor.png" alt="">
+        <p>Computers</p>
+      </div>
+      <div class="category-card">
+        <i class="fas fa-watch-smart"></i>
+        <img src="smart-watch.png" alt="">
+        <p>SmartWatch</p>
+      </div>
+      <div class="category-card active">
+        <i class="fas fa-camera"></i>
+        <img src="camera.png" alt="">
+        <p>Camera</p>
+      </div>
+      <div class="category-card">
+        <i class="fas fa-headphones"></i>
+        <img src="headphones.png" alt="">
+        <p>HeadPhones</p>
+      </div>
+      <div class="category-card">
+        <i class="fas fa-gamepad"></i>
+        <img src="game-controller.png" alt="">
+        <p>Gaming</p>
+      </div>
+
+       <div class="category-card">
+        <i class="fas fa-gamepad"></i>
+        <img src="glasess.png" alt="">
+        <p>Glasess</p>
+      </div>
+
+       <div class="category-card">
+        <i class="fas fa-gamepad"></i>
+        <img src="cap.png" alt="">
+        <p>cap</p>
+      </div>
+      
+       <div class="category-card">
+        <i class="fas fa-gamepad"></i>
+        <img src="toys.png" alt="">
+        <p>toys</p>
+      </div>
+
+      
+       <div class="category-card">
+        <i class="fas fa-gamepad"></i>
+        <img src="school-bag.png" alt="">
+        <p>school bag</p>
+      </div>
+      
+
+    </div>
+
+    <div class="arrows">
+      <button><i class="fas fa-arrow-left">/</i></button>
+      <button><i class="fas fa-arrow-right">/</i></button>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="products-header">
+      <div>
+        <p class="sub-title">This Month</p>
+        <h2>Best Selling Products</h2>
+      </div>
+      <button class="view-btn">View All</button>
+    </div>
+
+    <div class="product-container">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <div class="product-img">
+          <img src="61HknRN0TcL._AC_SL1500_.jpg" alt="Coat">
+          <div class="icons">
+            <i class="far fa-heart"></i>
+            <i class="far fa-eye"></i>
+          </div>
+        </div>
+        <h4>The north coat</h4>
+        <p class="price"><span class="new">$260</span> <span class="old">$360</span></p>
+        
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <div class="product-img">
+          <img src="images (1).jpg" alt="Bag">
+          <div class="icons">
+            <i class="far fa-heart"></i>
+            <i class="far fa-eye"></i>
+          </div>
+        </div>
+        <h4>Gucci duffle bag</h4>
+        <p class="price"><span class="new">$960</span> <span class="old">$1160</span></p>
+        
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <div class="product-img">
+          <img src="sp.jpg" alt="Cooler">
+          <div class="icons">
+            <i class="far fa-heart"></i>
+            <i class="far fa-eye"></i>
+          </div>
+        </div>
+        <h4>RGB liquid CPU Cooler</h4>
+        <p class="price"><span class="new">$160</span> <span class="old">$170</span></p>
+        
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <div class="product-img">
+          <img src="images.jpg" alt="BookShelf">
+          <div class="icons">
+            <i class="far fa-heart"></i>
+            <i class="far fa-eye"></i>
+          </div>
+        </div>
+        <h4>Small BookSelf</h4>
+        <p class="price"><span class="new">$360</span> <span class="old">$470</span></p>
+        </p>
+      </div>
+
+      
+      <!-- Product 4 -->
+      <div class="product-card">
+        <div class="product-img">
+          <img src="download (3) - Copy.jpg" alt="BookShelf">
+          <div class="icons">
+            <i class="far fa-heart"></i>
+            <i class="far fa-eye"></i>
+          </div>
+        </div>
+        <h4>AC</h4>
+        <p class="price"><span class="new">$560</span> <span class="old">$570</span></p>
+        </p>
+       </div>
+
+        
+      <!-- Product 4 -->
+      <div class="product-card">
+        <div class="product-img">
+          <img src="download (4).jpg" alt="BookShelf">
+          <div class="icons">
+            <i class="far fa-heart"></i>
+            <i class="far fa-eye"></i>
+          </div>
+        </div>
+        <h4>Television</h4>
+        <p class="price"><span class="new">$760</span> <span class="old">$790</span></p>
+        </p>
+      </div>
+    </div>
+
+    <!--categories-->
+    <section class="jbl">
+      <div class="jbl-banner">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple Logo" class="apple-logo">
+        <p class="seriesss">categories</p>
+        <h1>Enhance Your <br> Musicail Experance</h1>
+       <button class="nnn">Buy Now</button>
+      </div>
+      <div class="jbl-image">
+        <img src="download__5_-removebg-preview.png" alt="iPhone">
+      </div>
+    </section>
+  </section> 
+  </header> 
+
+  <section class="products-section">
+    <div class="section-header">
+      <p class="tag">Our Products</p>
+      <h2>Explore Our Products</h2>
+    </div>
+
+    <div class="products-grid">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="cesar.jpg" alt="Dog Food">
+        <h3>Breed Dry Dog Food</h3>
+        <p class="price">$100</p>     
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="camera-removebg-preview.png" alt="Camera">
+        <button class="add-cart">Add To Cart</button>
+        <h3>CANON EOS DSLR Camera</h3>
+        <p class="price">$360</p>     
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="laptop-removebg-preview.png" alt="Laptop">
+        <h3>ASUS FHD Gaming Laptop</h3>
+        <p class="price">$700</p>
+       
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="set-removebg-preview.png" alt="Curology">
+        <h3>Curology Product Set</h3>
+        <p class="price">$500</p>      
+      </div>
+
+      <!-- Product 5 -->
+      <div class="product-card new">
+        <img src="electric car.jpg" alt="Kids Car">
+        <h3>Kids Electric Car</h3>
+        <p class="price">$960</p>       
+      </div>
+
+      <!-- Product 6 -->
+      <div class="product-card">
+        <img src="zoom_soccer-removebg-preview.png" alt="Soccer Cleats">
+        <h3>Jr. Zoom Soccer Cleats</h3>
+        <p class="price">$1160</p>        
+      </div>
+
+      <!-- Product 7 -->
+      <div class="product-card new">
+        <img src="gaming pad.jpg" alt="Gamepad">
+        <h3>GP11 Shooter USB Gamepad</h3>
+        <p class="price">$660</p>       
+      </div>
+
+      <!-- Product 8 -->
+      <div class="product-card">
+        <img src="jacket-removebg-preview.png" alt="Jacket">
+        <h3>Quilted Satin Jacket</h3>
+        <p class="price">$660</p>
+      </div>
+    </div>
+
+    <div class="btn-container">
+      <button class="view-all">View All Products</button>
+    </div>
+  </section>
+
+
+  <section class="new-arrival">
+    <h1 class="h1">Featuer</h1>
+    <h2>New Arrival</h2>
+    <div class="arrival-grid">
+      
+      <!-- PlayStation -->
+      <div class="arrival-card large">
+        <img src="ps5-slim-goedkope-playstation_large 1.png" alt="PlayStation 5">
+        <div class="overlay">
+          <h3>PlayStation 5</h3>
+          <p>Black and White version of the PS5 <br>coming out on sale.</p>
+          <a href="#" class="btnnnn">Shop Now</a>
+        </div>
+      </div>
+
+         
+      <!-- Women’s Collections -->
+      <div class="arrival-card">
+        <img src="attractive-woman-wearing-hat-posing-black-background 1.png" alt="Women's Collections">
+        <div class="overlay">
+          <h3>Women’s Collections</h3>
+          <p>Featured woman collections that give you another vibe.</p>
+          <a href="#" class="btn">Shop Now</a>
+        </div>
+      </div>
+
+      <!-- Speakers -->
+      <div class="arrival-card">
+        <img src="69-694768_amazon-echo-png-clipart-transparent-amazon-echo-png 1.png" alt="Speakers">
+        <div class="overlay">
+          <h3>Speakers</h3>
+          <p>Amazon wireless speakers</p>
+          <a href="#" class="btn">Shop Now</a>
+        </div>
+      </div>
+
+      <!-- Perfume -->
+      <div class="arrival-card">
+        <img src="aaa.png" alt="Perfume">
+        <div class="overlay">
+          <h3>Perfume</h3>
+          <p>GUCCI INTENSE OUD EDP</p>
+          <a href="#" class="btn">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--free and fast-->
+    <div class="fast-free">
+      
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Logo and Newsletter -->
+      <div class="footer-section">
+        <h2 class="logo">Exclusive</h2>
+        <p>Subscribe</p>
+        <P>Get 10% off on the frist order</P>
+        <form class="newsletter">
+          <input type="email" placeholder="Email ..." required>
+          <button type="submit"><i class="fas fa-arrow-right"></i></button>
+        </form>
+      </div>
+
+      <!-- Top Cities -->
+      <div class="footer-section">
+        <h3>Support</h3>
+        <ul>
+          <li>111 Bijoy sarani,Dhaka</li>
+          <li>Dh 1515,Banglasheds.</li>
+          <li>Exclusive@gmail.com</li>
+          <li>+8645-88888-9999</li>
+        </ul>
+      </div>
+
+      <!-- Explore -->
+      <div class="footer-section">
+        <h3>Account</h3>
+        <ul>
+          <li>My account</li>
+          <li>Login/Register</li>
+          <li>Cart</li>
+          <li>Whlist </li>
+          <li>Shop</li>
+        </ul>
+      </div>
+
+      <!-- Intercity rides -->
+      <div class="footer-section">
+        <h3>Quick link</h3>
+        <ul>
+          <li>privacy policy</li>
+          <li>Term and condiction</li>
+          <li>FAQ</li>
+          <li>Contanct</li>
+        </ul>
+      </div>
+    </div>
+
+    
+      <!--Dowload-->
+      <div class="footer-section">
+        <h3>Download</h3>
+       <ul>
+          <li>save $3 with app new user only</li>
+        </ul>
+        <div class="coat">
+          <img class="cccc" src="ccc.jpg" alt="">
+          <img class="pppp" src="ppp.png" alt="">
+          <img class="gggg" src="ggg.png" alt="">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bottom Bar -->
+
+<!-- 
+    <div class="footer-bottom">
+      <p>© 2023 ArA.</p>
+      <div class="footer-links">
+        <a href="#">Terms</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Legal notice</a>
+        <a href="#">Accessibility</a>
+      </div>
+      <div class="footer-socials">
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>  -->
+
 </body>
 </html>
+ 

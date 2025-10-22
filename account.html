@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exclusive | My Account</title>
+  <link rel="stylesheet" href="account.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Exclusive</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Sign Up</a></li>
+      </ul>
+    </nav>
+    <div class="nav-icons">
+      <input type="text" placeholder="What are you looking for?">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-shopping-cart"></i>
+      <i class="fas fa-user"></i>
+    </div>
+  </header>
+
+  <!-- MAIN ACCOUNT SECTION -->
+  <main class="account-page">
+    <aside class="sidebar">
+      <h3>Manage My Account</h3>
+      <ul>
+        <li class="active">My Profile</li>
+        <li>Address Book</li>
+        <li>My Payment Options</li>
+      </ul>
+      <h3>My Orders</h3>
+      <ul>
+        <li>My Returns</li>
+        <li>My Cancellations</li>
+      </ul>
+      <h3>My Wishlist</h3>
+    </aside>
+
+    <section class="profile-section">
+      <div class="profile-header">
+        <p>Welcome! <span class="username">Md Rimel</span></p>
+      </div>
+
+      <div class="profile-card">
+        <h2>Edit Your Profile</h2>
+        <form id="profileForm">
+          <div class="form-group">
+            <div>
+              <label>First Name</label>
+              <input type="text" value="Md" />
+            </div>
+            <div>
+              <label>Last Name</label>
+              <input type="text" value="Rimel" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div>
+              <label>Email</label>
+              <input type="email" value="mrimel1@gmail.com" />
+            </div>
+            <div>
+              <label>Address</label>
+              <input type="text" value="Kingston, 5236, United State" />
+            </div>
+          </div>
+
+          <h3>Password Changes</h3>
+          <div class="password-group">
+            <input type="password" placeholder="Current Password" />
+            <input type="password" placeholder="New Password" />
+            <input type="password" placeholder="Confirm New Password" />
+          </div>
+
+          <div class="buttons">
+            <button type="button" class="cancel">Cancel</button>
+            <button type="submit" class="save">Save Changes</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-columns">
+      <div>
+        <h4>Exclusive</h4>
+        <p>Subscribe</p>
+        <input type="email" placeholder="Enter your email">
+      </div>
+      <div>
+        <h4>Support</h4>
+        <p>Address: 123 City, Bangladesh</p>
+        <p>Email: support@exclusive.com</p>
+        <p>Phone: +880152-636-8999</p>
+      </div>
+      <div>
+        <h4>Account</h4>
+        <p>My Account</p>
+        <p>Login / Register</p>
+        <p>Cart</p>
+        <p>Wishlist</p>
+      </div>
+      <div>
+        <h4>Quick Link</h4>
+        <p>Privacy Policy</p>
+        <p>Terms Of Use</p>
+        <p>Contact</p>
+      </div>
+      <div>
+        <h4>Download App</h4>
+        <img src="images/qrcode.png" alt="QR Code">
+      </div>
+    </div>
+    <p class="copyright">© Copyright Brand 2025. All rights reserved</p>
+  </footer>
+</body>
+</html>

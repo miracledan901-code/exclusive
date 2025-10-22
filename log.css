@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.top-banner {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+.top-banner a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.top-banner .lang {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav .menu a {
+  margin: 0 10px;
+  color: #000;
+}
+
+.nav .menu .active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.search-box input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 5%;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-image img {
+  max-width: 100%;
+  width: 450px;
+}
+
+.signup-form {
+  max-width: 400px;
+}
+
+.signup-form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.signup-form p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.signup-form form input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #db4444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.google-btn {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.google-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.login-text {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.login-text a {
+  color: #db4444;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 5% 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.footer-col h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.footer-col p, .footer-col input {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.footer-col input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.qr-code {
+  width: 80px;
+  margin: 10px 0;
+}
+
+.app-links img {
+  width: 120px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.socials img {
+  width: 20px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+/* -------------------- Responsive Styles -------------------- */
+
+@media (max-width: 1024px) {
+  .signup-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .signup-image img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .signup-form {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .search-box {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-col input {
+    width: 100%;
+  }
+
+  .app-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .socials {
+    margin-top: 10px;
+  }
+
+  .google-btn {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-banner .lang {
+    display: none;
+  }
+
+  .search-box input {
+    width: 100%;
+  }
+
+  .signup-form h2 {
+    font-size: 1.5rem;
+  }
+
+  .signup-form p {
+    font-size: 0.9rem;
+  }
+
+  .nav .logo {
+    font-size: 1.3rem;
+  }
+
+  .google-btn img {
+    width: 16px;
+  }
+
+  .qr-code {
+    width: 60px;
+  }
+
+  .app-links img {
+    width: 100px;
+  }
+}
